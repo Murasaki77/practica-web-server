@@ -1,5 +1,8 @@
-const { envs } = require('./config/env')
-const {startServer } = require('./server/server')
+import {envs} from './config/env.js'
+import {startServer} from './server/server.js'
+//formar sin modules, osea sin typescrip
+//const { envs } = require('./config/env')
+//const {startServer } = require('./server/server')
 
 const main = () => {
     startServer({
